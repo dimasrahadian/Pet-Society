@@ -56,7 +56,6 @@
         <div><label>id_mitrapro : </label><input type="text" name="id_mitrapro" class="form-control"></div>
         <div><label>Nama : </label><input type="text" name="Nama" class="form-control"></div>
         <div><label>Alamat : </label><input type="text" name="Alamat" class="form-control"></div>
-        <div><label>NoTelp: </label><input type="text" name="NoTelp" class="form-control"></div>
         <div><label>JenisUsaha: </label><input type="text" name="JenisUsaha" class="form-control"></div>
         <button type="submit">Save</button>
         </div>

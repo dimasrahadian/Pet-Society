@@ -26,7 +26,6 @@ class Mitrapet extends Controller
             'id_mitrapet'  => $this->request->getPost('id_mitrapet'),
             'Nama' => $this->request->getPost('Nama'),
             'Alamat' => $this->request->getPost('Alamat'),
-            'NoTelp' => $this->request->getPost('Notelp'),
             'Treatment' => $this->request->getPost('Treatment'),
         );  
         $model->saveMitrapet($data);
@@ -48,7 +47,6 @@ class Mitrapet extends Controller
             'id_mitrapet'  => $this->request->getPost('id_mitrapet'),
             'Nama' => $this->request->getPost('Nama'),
             'Alamat' => $this->request->getPost('Alamat'),
-            'NoTelp' => $this->request->getPost('Notelp'),
             'Treatment' => $this->request->getPost('Treatment'),
 
         );

@@ -26,8 +26,7 @@ class Mitrapro extends Controller
             'id_mitrapro'  => $this->request->getPost('id_mitrapro'),
             'Nama' => $this->request->getPost('Nama'),
             'Alamat' => $this->request->getPost('Alamat'),
-            'NoTelp' => $this->request->getPost('Notelp'),
-            'Treatment' => $this->request->getPost('Treatment'),
+            'JenisUsaha' => $this->request->getPost('JenisUsaha'),
         );  
         $model->saveMitrapro($data);
         return redirect()->to(base_url("mitrapro"));
@@ -48,8 +47,7 @@ class Mitrapro extends Controller
             'id_mitrapro'  => $this->request->getPost('id_mitrapro'),
             'Nama' => $this->request->getPost('Nama'),
             'Alamat' => $this->request->getPost('Alamat'),
-            'NoTelp' => $this->request->getPost('Notelp'),
-            'Treatment' => $this->request->getPost('Treatment'),
+            'JenisUsaha' => $this->request->getPost('JenisUsaha'),
 
         );
         $model->updateMitrapro($data, $id);

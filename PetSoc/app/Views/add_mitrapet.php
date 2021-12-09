@@ -56,7 +56,6 @@
         <div><label>id_mitrapet : </label><input type="text" name="id_mitrapet" class="form-control"></div>
         <div><label>Nama : </label><input type="text" name="Nama" class="form-control"></div>
         <div><label>Alamat : </label><input type="text" name="Alamat" class="form-control"></div>
-        <div><label>NoTelp: </label><input type="text" name="NoTelp" class="form-control"></div>
         <div><label>Treatment: </label><input type="text" name="Treatment" class="form-control"></div>
         <button type="submit">Save</button>
         </div>

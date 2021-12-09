@@ -129,7 +129,6 @@
                 <th>ID</th>
                 <th>Nama</th>
                 <th>Alamat</th>
-                <th>NoTelp</th>
                 <th>Treatment</th>
                 <th>Action</th>
             </tr>
@@ -140,7 +139,6 @@
                     <td><?= $row['id_mitrapet']; ?></td>
                     <td><?= $row['Nama']; ?></td>
                     <td><?= $row['Alamat']; ?></td>
-                    <td><?= $row['NoTelp']; ?></td>
                     <td><?= $row['Treatment']; ?></td>
                     <td>
                     <a href=<?= base_url("mitrapet/edit/{$row['id_mitrapet']}"); ?> class ="new">

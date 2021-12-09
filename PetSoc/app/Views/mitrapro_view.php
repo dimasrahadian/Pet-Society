@@ -129,8 +129,7 @@
                 <th>ID</th>
                 <th>Nama</th>
                 <th>Alamat</th>
-                <th>NoTelp</th>
-                <th>Treatment</th>
+                <th>JenisUsaha</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -140,7 +139,6 @@
                     <td><?= $row['id_mitrapro']; ?></td>
                     <td><?= $row['Nama']; ?></td>
                     <td><?= $row['Alamat']; ?></td>
-                    <td><?= $row['NoTelp']; ?></td>
                     <td><?= $row['JenisUsaha']; ?></td>
                     <td>
                     <a href=<?= base_url("mitrapro/edit/{$row['id_mitrapro']}"); ?> class ="new">
