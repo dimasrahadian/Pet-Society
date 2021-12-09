@@ -33,6 +33,25 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('logout', 'Login::logout');
+$routes->match(['get', 'post'], 'register', 'Login::register');
+$routes->get('dashboard', 'Home::Admin', ['filter' => 'auth']);
+$routes->get('/homepage', 'Home::Admin');
+$routes->get('/about', 'Home::About');
+$routes->get('/viewcontact', 'Home::Contact');
+$routes->get('/viewpetsitting', 'Home::Petsitting');
+$routes->get('/viewstore', 'Home::Store');
+$routes->get('/viewvetservice', 'Home::Veterinary');
+$routes->get('/viewvetservicee', 'Home::Veterinaryy');
+$routes->get('/viewvetserviceee', 'Home::Veterinaryyy');
+$routes->get('/viewvetserviceeee', 'Home::Veterinaryyyy');
+$routes->get('/viewpetsittingg', 'Home::Petsittingg');
+$routes->get('/viewpetsittinggg', 'Home::Petsittinggg');
+$routes->get('/viewpetsittingggg', 'Home::Petsittingggg');
+$routes->get('/viewstoree', 'Home::Storee');
+$routes->get('/mitrapro', 'Mitrapro::index');
+$routes->get('/mitrapet', 'Mitrapet::index');
+$routes->get('/doctor', 'Doctor::index');
 
 /*
  * --------------------------------------------------------------------

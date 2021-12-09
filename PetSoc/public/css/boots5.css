@@ -1,0 +1,134 @@
+#Navbar {
+    height: 64px;
+  }
+  
+  #Navbar .logo img {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 4px;
+  }
+  
+  #Navbar .logo .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #7D7373;
+    margin-left: 8px;
+  }
+  
+  #Navbar .nav-link {
+    margin-left: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7D7373;
+  }
+  
+  #Navbar .nav-link.active {
+    color: #FF9C36;
+  }
+  
+  #Navbar .btn {
+    padding: 4px 16px;
+    background-color: #FF9C36;
+    color: #FAFAFA;
+    margin-top: 3px;
+}
+
+#Title1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+#Title2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+#Feature{
+    height: 64px;
+}
+
+#Feature .feat-link{
+    margin-left: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #7D7373;
+    text-decoration-line: none;
+}
+
+#Feature .feat-link.active{  
+    color: #FF9C36;
+}
+
+#Vet{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    line-height: 150%;
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+
+}
+
+#Vet .btn{
+    padding: 4px 16px;
+    background-color: #FF9C36;
+    color: #FAFAFA;
+    margin-top: 3px;
+}
+
+#Footer {
+  background-color: #444;
+  padding-bottom: 32px;
+}
+
+#Footer .about .logo {
+  margin-bottom: 15px;
+  margin-top: 48px;
+}
+
+#Footer .about .logo img {
+  width: 36px;
+  height: 36px;
+}
+
+#Footer .about .logo .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FAFAFA;
+  margin-left: 8px;
+}
+
+#Footer .about p {
+  color: #999;
+  text-align: justify;
+}
+
+#Footer .company, #Footer .services, #Footer .information {
+  margin-top: 52px;
+}
+
+#Footer .company h4, #Footer .services h4, #Footer .information h4 {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+#Footer .company ul, #Footer .services ul, #Footer .information ul {
+  padding: 0;
+}
+
+#Footer .company ul li, #Footer .services ul li, #Footer .information ul li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+#Footer .company ul li a, #Footer .services ul li a, #Footer .information ul li a {
+  text-decoration: none;
+  color: #999;
+}
